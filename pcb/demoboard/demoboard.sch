@@ -110,7 +110,7 @@ F 1 "STEPPER1" H 10080 3751 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10000 3800 50  0001 C CNN
 F 3 "~" H 10000 3800 50  0001 C CNN
 	1    10000 3800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x05 J20
@@ -121,7 +121,7 @@ F 1 "STEPPER2" H 10080 4501 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10000 4550 50  0001 C CNN
 F 3 "~" H 10000 4550 50  0001 C CNN
 	1    10000 4550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J2
@@ -923,7 +923,7 @@ L Device:R R4
 U 1 1 5E41F1B6
 P 1950 6350
 F 0 "R4" V 1743 6350 50  0000 C CNN
-F 1 "100R" V 1834 6350 50  0000 C CNN
+F 1 "220R" V 1834 6350 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1880 6350 50  0001 C CNN
 F 3 "~" H 1950 6350 50  0001 C CNN
 	1    1950 6350
@@ -1001,7 +1001,7 @@ Wire Wire Line
 	8600 5550 8700 5550
 Wire Wire Line
 	8600 5350 8700 5350
-Text Label 8700 5350 0    50   ~ 0
+Text Label 8700 5450 0    50   ~ 0
 BTN
 $Comp
 L 74xx:74HC595 U1
@@ -1038,7 +1038,7 @@ Text Label 8400 2250 0    50   ~ 0
 RCLK
 Text Label 8400 2050 0    50   ~ 0
 SRCLR
-Text Label 8700 5450 0    50   ~ 0
+Text Label 8700 5350 0    50   ~ 0
 TCH
 Text Label 6800 2400 0    50   ~ 0
 MA2Y
